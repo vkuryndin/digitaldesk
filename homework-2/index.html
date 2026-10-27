@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ночь в музее — конструктор посещения</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <section class="event-card">
+      <p class="eyebrow">ВЕЧЕР В МУЗЕЕ</p>
+      <h1 id="event-title">Ночь в музее</h1>
+      <p class="event-info">15 ноября, 18:30</p>
+      <p class="event-info">Музей космонавтики, проспект Мира, 111</p>
+      <p class="description">Вечерняя программа с выставкой и экскурсиями</p>
+
+      <button id="show-program" class="button secondary-button" type="button">Показать программу</button>
+      <div id="program" class="program" hidden></div>
+    </section>
+
+    <section class="service-card">
+      <h2>Дополнительные услуги</h2>
+      <p class="hint">Отметьте услуги, которые хотите включить в посещение.</p>
+
+      <form id="service-form" hidden>
+        <label class="service-option" for="guide">
+          <input id="guide" type="checkbox">
+          Экскурсия с гидом — 500 руб.
+        </label>
+        <label class="service-option" for="audio">
+          <input id="audio" type="checkbox">
+          Аудиогид — 350 руб.
+        </label>
+        <label class="service-option" for="catalog">
+          <input id="catalog" type="checkbox">
+          Каталог выставки — 250 руб.
+        </label>
+        <button class="button primary-button" type="submit">Рассчитать стоимость</button>
+      </form>
+
+      <p id="choice-error" class="error-message" hidden></p>
+      <p id="data-error" class="error-message" hidden></p>
+      <div id="result" class="result" hidden></div>
+      <pre id="report-json" class="json-output" hidden></pre>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

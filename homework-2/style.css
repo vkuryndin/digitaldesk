@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  padding: 36px 18px;
+  background: #f3f5fa;
+  color: #26334a;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+.page {
+  max-width: 620px;
+  margin: 0 auto;
+}
+
+.event-card {
+  padding: 30px;
+  border: 1px solid #dce2ed;
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 0 7px 24px #26334a0d;
+}
+
+.service-card {
+  margin-top: 24px;
+  padding: 30px;
+  border: 1px solid #dce2ed;
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 0 7px 24px #26334a0d;
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  color: #5869b5;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+h1 {
+  margin: 0 0 18px;
+  color: #172448;
+  font-size: 32px;
+  line-height: 1.2;
+}
+
+h2 {
+  margin: 0 0 8px;
+  color: #172448;
+  font-size: 23px;
+}
+
+.event-info {
+  margin: 6px 0;
+}
+
+.description {
+  margin: 18px 0 22px;
+  color: #586477;
+}
+
+.hint {
+  margin: 0 0 18px;
+  color: #657186;
+}
+
+.button {
+  padding: 11px 18px;
+  border: 1px solid #455ac5;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.secondary-button {
+  background: #ffffff;
+  color: #394fb9;
+}
+
+.primary-button {
+  margin-top: 14px;
+  background: #455ac5;
+  color: #ffffff;
+}
+
+.program {
+  margin-top: 16px;
+  padding: 14px;
+  border: 1px solid #dae3fa;
+  border-radius: 8px;
+  background: #f1f5ff;
+}
+
+.service-option {
+  display: block;
+  margin: 12px 0;
+  padding: 11px;
+  border: 1px solid #e5e9f2;
+  border-radius: 8px;
+  background: #f9faff;
+}
+
+input {
+  margin-right: 10px;
+}
+
+.error-message {
+  margin-top: 16px;
+  padding: 12px;
+  border: 1px solid #ffcbcb;
+  border-radius: 8px;
+  background: #fff4f4;
+  color: #a32c35;
+}
+
+.result {
+  margin-top: 20px;
+  padding: 16px;
+  border: 1px solid #cbd7ff;
+  border-radius: 8px;
+  background: #f1f5ff;
+  color: #172448;
+}
+
+.json-output {
+  margin: 12px 0 0;
+  padding: 14px;
+  border: 1px solid #e5e9f2;
+  border-radius: 8px;
+  background: #f6f7fb;
+  color: #26334a;
+  font-family: Consolas, Monaco, monospace;
+  font-size: 13px;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
